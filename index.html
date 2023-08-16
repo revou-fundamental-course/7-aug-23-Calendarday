@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luas dan Keliling Segitiga</title>
+    <link rel="stylesheet" text="text/css" href="css/styles.css"/>
+</head>
+<body>
+
+    <header>
+        <h1>Kalkulator Luas dan Keliling Segitiga</h1>
+    </header>
+    
+    <div class="container-content">
+        <a href="https://id.wikipedia.org/wiki/Segitiga" class="a-content">
+            <img src="assets/segitiga2.jpg" class="img-content"/>
+        </a><br>
+
+    </div>
+
+<!---Luas Segitiga-->    
+    <div><br>
+
+        <h3>Rumus Luas Segitiga yaitu:</h3><br>
+        <center <p >L=1/2 x a x t</p></center><br>
+        <a>Di mana:</a><br>
+        <a>L=Luas</a><br>
+        <a>a=Panjang Alas</a><br>
+        <a>t=Tinggi</a><br>
+        <center class="Center1">Hitung Luas Segitiga</center><br>
+        
+    </div>
+
+    <label1 for="alas">Alas :</label>
+    <input type="number" id="alas"><br>
+    <label2 for="tinggi">Tinggi:</label>
+    <input type="number" id="tinggi"><br>
+    <section><center><br>
+    <button onclick="hitungLuas()">Hitung</button></section>
+    <h2 id="hasilLuas"></h2><br><br>
+
+
+<!--Keliling Segitiga-->
+
+    <div>
+
+        <h3>Rumus Keliling Segitiga yaitu:</h3><br>
+            <center <p >K=S1+S2+S3</p></center><br>
+            <a>Di mana:</a><br>
+            <a>K= Keliling</a><br>
+            <a>S1= Sisi A</a><br>
+            <a>S2= Sisi B</a><br>
+            <a>S3= Sisi C</a><br>
+            <center class="Center1">Hitung Keliling Segitiga</center>
+        </div>
+
+    <label1 for="sisi1">Sisi 1:</label>
+    <input type="number" id="sisi1"><br>
+    <label2 for="sisi2">Sisi 2:</label>
+    <input type="number" id="sisi2"><br>
+    <label1 for="sisi3">Sisi 3:</label>
+    <input type="number" id="sisi3"><br>
+    <section><center><br>
+    <button onclick="hitungKeliling()">Hitung</button></section>
+    <h2 id="hasilKeliling"></h2>
+</body>
+<script src="js/script.js" type="text/javascript"></script>
+</html>
